@@ -17,6 +17,7 @@ label1='IBU'
 label2='ABV'
 githublink='https://github.com/austinlasseter/flying-dog-beers'
 sourceurl='https://www.flyingdog.com/beers/'
+ALL_data_fit_values = pd.read_csv('https://raw.githubusercontent.com/rach6230/Dash_app_Systematic_Testing/main/Full_fit_Data.csv')
 
 ########### Set up the chart
 bitterness = go.Bar(
