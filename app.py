@@ -2,7 +2,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
-import pandas as pd
 
 ########### Define your variables
 beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
@@ -15,7 +14,8 @@ tabtitle='beer!'
 myheading='Flying Dog Beers'
 label1='IBU'
 label2='ABV'
-
+githublink='https://github.com/austinlasseter/flying-dog-beers'
+sourceurl='https://www.flyingdog.com/beers/'
 
 ########### Set up the chart
 bitterness = go.Bar(
